@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BB$ — Baby Banking Solution</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <div class="badge">BB$ LAB · GitHub + Vercel Project</div>
+
+      <h1>BB$ — Baby Banking Solution</h1>
+
+      <p class="claim">
+        BB$ è l’app che traduce i movimenti bancari in consapevolezza quotidiana.
+      </p>
+
+      <p class="subtitle">
+        Guarda i tuoi soldi senza paura. BB$ trasforma spese, entrate e abitudini
+        in snapshot semplici, chiari e immediati.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#dashboard" class="button primary">Vedi la demo</a>
+        <a href="#problem" class="button secondary">Scopri il problema</a>
+      </div>
+    </section>
+
+    <section id="problem" class="section">
+      <h2>Il problema non è spendere. È non percepire.</h2>
+      <p>
+        Le app bancarie mostrano numeri, saldi e movimenti. Ma spesso non aiutano
+        davvero a capire cosa sta succedendo. BB$ nasce per rendere il denaro
+        digitale più visibile, più semplice e meno ansiogeno.
+      </p>
+    </section>
+
+    <section id="dashboard" class="dashboard">
+      <div class="card">
+        <span>Speso oggi</span>
+        <strong>€84,50</strong>
+        <p>12 movimenti registrati</p>
+      </div>
+
+      <div class="card">
+        <span>Entrate oggi</span>
+        <strong>€300,00</strong>
+        <p>1 entrata rilevata</p>
+      </div>
+
+      <div class="card">
+        <span>Bilancio netto</span>
+        <strong class="positive">+€215,50</strong>
+        <p>Giornata sotto controllo</p>
+      </div>
+
+      <div class="card">
+        <span>Categoria più alta</span>
+        <strong>Food</strong>
+        <p>€42,00 nelle ultime 24h</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Transazioni simulate</h2>
+
+      <div class="transactions">
+        <div class="transaction expense">
+          <span>Ristorante Marechiaro</span>
+          <strong>-€42,00</strong>
+        </div>
+
+        <div class="transaction expense">
+          <span>ENI carburante</span>
+          <strong>-€35,00</strong>
+        </div>
+
+        <div class="transaction expense">
+          <span>Netflix</span>
+          <strong>-€7,50</strong>
+        </div>
+
+        <div class="transaction income">
+          <span>Bonifico cliente</span>
+          <strong>+€300,00</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="section redeem">
+      <h2>Redeem Moment</h2>
+      <p>
+        Scegli quando ricevere il tuo snapshot: ogni sera, ogni mattina,
+        ogni domenica o quando superi una soglia di spesa.
+      </p>
+      <button id="snapshotBtn">Genera snapshot demo</button>
+      <div id="snapshotBox" class="snapshot hidden"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
