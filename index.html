@@ -8,36 +8,212 @@
 </head>
 <body>
   <main class="page">
+
+    <!-- HERO -->
     <section class="hero">
-      <div class="badge">BB$ LAB · GitHub + Vercel Project</div>
+      <div class="badge">BB$ LAB · Startup Landing V2</div>
 
       <h1>BB$ — Baby Banking Solution</h1>
 
       <p class="claim">
-        BB$ è l’app che traduce i movimenti bancari in consapevolezza quotidiana.
+        Trasforma le transazioni bancarie in consapevolezza quotidiana.
+      </p>
+
+      <p class="manifesto">
+        Make money visible again.
       </p>
 
       <p class="subtitle">
-        Guarda i tuoi soldi senza paura. BB$ trasforma spese, entrate e abitudini
-        in snapshot semplici, chiari e immediati.
+        BB$ aiuta chi vive il denaro digitale in modo passivo, confuso o ansiogeno,
+        traducendo movimenti bancari e abitudini di spesa in snapshot semplici,
+        umani e immediati.
       </p>
 
       <div class="hero-actions">
-        <a href="#dashboard" class="button primary">Vedi la demo</a>
-        <a href="#problem" class="button secondary">Scopri il problema</a>
+        <a href="#pain" class="button primary">See the pain</a>
+        <a href="#vision" class="button secondary">Explore the vision</a>
       </div>
     </section>
 
-    <section id="problem" class="section">
-      <h2>Il problema non è spendere. È non percepire.</h2>
+    <!-- PAIN BANNER -->
+    <section id="pain" class="pain-banner">
+      <div>
+        <span class="section-label">Central Pain</span>
+        <h2>Il denaro digitale è diventato invisibile.</h2>
+      </div>
+
       <p>
-        Le app bancarie mostrano numeri, saldi e movimenti. Ma spesso non aiutano
-        davvero a capire cosa sta succedendo. BB$ nasce per rendere il denaro
-        digitale più visibile, più semplice e meno ansiogeno.
+        Paghiamo in un secondo, ma capiamo troppo tardi quanto abbiamo speso.
+        Il vero problema non è spendere troppo: è perdere la percezione del denaro
+        mentre lo stiamo usando.
+      </p>
+
+      <p class="pain-highlight">
+        BB$ nasce per trasformare transazioni bancarie, micro-spese e abitudini digitali
+        in consapevolezza quotidiana.
       </p>
     </section>
 
-    <section id="dashboard" class="dashboard">
+    <!-- AWARENESS GAP CHART -->
+    <section class="section chart-section">
+      <div class="section-header">
+        <span class="section-label">Conceptual Pain Map</span>
+        <h2>The Awareness Gap</h2>
+        <p>
+          Nel denaro digitale, la spesa avviene in tempo reale.
+          La consapevolezza, invece, spesso arriva in ritardo.
+        </p>
+      </div>
+
+      <div class="chart-card">
+        <div class="chart">
+          <div class="chart-line spending-line"></div>
+          <div class="chart-line awareness-line"></div>
+
+          <div class="chart-point spending p1"></div>
+          <div class="chart-point spending p2"></div>
+          <div class="chart-point spending p3"></div>
+          <div class="chart-point spending p4"></div>
+
+          <div class="chart-point awareness a1"></div>
+          <div class="chart-point awareness a2"></div>
+          <div class="chart-point awareness a3"></div>
+          <div class="chart-point awareness a4"></div>
+
+          <div class="chart-axis x-axis"></div>
+          <div class="chart-axis y-axis"></div>
+
+          <span class="day d1">Lun</span>
+          <span class="day d2">Mer</span>
+          <span class="day d3">Ven</span>
+          <span class="day d4">Dom</span>
+        </div>
+
+        <div class="legend">
+          <div><span class="dot spending-dot"></span> Spesa reale</div>
+          <div><span class="dot awareness-dot"></span> Consapevolezza percepita</div>
+        </div>
+
+        <p class="chart-note">
+          BB$ esiste per ridurre questo gap: meno paura del saldo, più percezione quotidiana.
+        </p>
+      </div>
+    </section>
+
+    <!-- TARGET -->
+    <section class="section">
+      <div class="section-header">
+        <span class="section-label">Initial Target</span>
+        <h2>Pensato per chi spende in digitale, ma fatica a percepirlo.</h2>
+        <p>
+          Il primo target di BB$ sono giovani adulti digital-first, tra 18 e 35 anni,
+          che pagano quasi tutto con carta, wallet e abbonamenti, ma non vogliono
+          usare Excel o app finanziarie complicate.
+        </p>
+      </div>
+
+      <div class="target-grid">
+        <div class="target-card">
+          <h3>Young Professionals</h3>
+          <p>
+            Primi stipendi, pagamenti digitali continui e bisogno di sentirsi più
+            consapevoli senza entrare in una banca ogni giorno.
+          </p>
+        </div>
+
+        <div class="target-card">
+          <h3>Students & First Earners</h3>
+          <p>
+            Persone che stanno imparando a gestire il denaro, ma trovano le app
+            bancarie fredde, tecniche o ansiogene.
+          </p>
+        </div>
+
+        <div class="target-card">
+          <h3>Freelancers</h3>
+          <p>
+            Utenti con entrate irregolari, incassi variabili e bisogno di snapshot
+            rapidi per capire come sta andando davvero.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section id="vision" class="section">
+      <div class="section-header">
+        <span class="section-label">Product Logic</span>
+        <h2>How BB$ works</h2>
+        <p>
+          BB$ non vuole sostituire la banca. Vuole diventare lo strato di interpretazione
+          che traduce numeri e movimenti in messaggi semplici.
+        </p>
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <span>01</span>
+          <h3>Receives transaction data</h3>
+          <p>Riceve movimenti bancari autorizzati dall’utente.</p>
+        </div>
+
+        <div class="step">
+          <span>02</span>
+          <h3>Classifies spending</h3>
+          <p>Organizza automaticamente spese, entrate, categorie e ricorrenze.</p>
+        </div>
+
+        <div class="step">
+          <span>03</span>
+          <h3>Translates into human language</h3>
+          <p>Trasforma dati freddi in frasi comprensibili e utili.</p>
+        </div>
+
+        <div class="step">
+          <span>04</span>
+          <h3>Sends awareness snapshots</h3>
+          <p>Invia snapshot nel momento giusto, senza creare ansia inutile.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCT SYSTEM -->
+    <section class="section">
+      <div class="section-header">
+        <span class="section-label">Core Product System</span>
+        <h2>Una nuova interfaccia per capire i soldi.</h2>
+      </div>
+
+      <div class="product-grid">
+        <div class="product-card">
+          <h3>Today Snapshot</h3>
+          <p>La fotografia finanziaria della giornata.</p>
+        </div>
+
+        <div class="product-card">
+          <h3>Money Feed</h3>
+          <p>Una timeline interpretata dei movimenti.</p>
+        </div>
+
+        <div class="product-card">
+          <h3>Redeem Moment</h3>
+          <p>Il momento scelto per guardare in faccia le ultime 24h.</p>
+        </div>
+
+        <div class="product-card">
+          <h3>Behavior Signals</h3>
+          <p>Segnali su micro-spese, categorie fuori media e abitudini.</p>
+        </div>
+
+        <div class="product-card">
+          <h3>Fearless View</h3>
+          <p>Una modalità pensata per chi ha ansia di aprire il saldo.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- OLD DEMO DASHBOARD -->
+    <section class="dashboard">
       <div class="card">
         <span>Speso oggi</span>
         <strong>€84,50</strong>
@@ -63,41 +239,27 @@
       </div>
     </section>
 
-    <section class="section">
-      <h2>Transazioni simulate</h2>
-
-      <div class="transactions">
-        <div class="transaction expense">
-          <span>Ristorante Marechiaro</span>
-          <strong>-€42,00</strong>
-        </div>
-
-        <div class="transaction expense">
-          <span>ENI carburante</span>
-          <strong>-€35,00</strong>
-        </div>
-
-        <div class="transaction expense">
-          <span>Netflix</span>
-          <strong>-€7,50</strong>
-        </div>
-
-        <div class="transaction income">
-          <span>Bonifico cliente</span>
-          <strong>+€300,00</strong>
-        </div>
-      </div>
-    </section>
-
     <section class="section redeem">
+      <span class="section-label">Demo Interaction</span>
       <h2>Redeem Moment</h2>
       <p>
-        Scegli quando ricevere il tuo snapshot: ogni sera, ogni mattina,
-        ogni domenica o quando superi una soglia di spesa.
+        Genera uno snapshot dimostrativo per vedere il tono con cui BB$
+        potrebbe restituire consapevolezza all’utente.
       </p>
       <button id="snapshotBtn">Genera snapshot demo</button>
       <div id="snapshotBox" class="snapshot hidden"></div>
     </section>
+
+    <!-- FINAL CTA -->
+    <section class="final-cta">
+      <h2>Make money visible again.</h2>
+      <p>
+        BB$ costruisce un nuovo livello di consapevolezza finanziaria per la
+        generazione dei pagamenti digitali.
+      </p>
+      <a href="#pain" class="button primary">Explore BB$ Lab</a>
+    </section>
+
   </main>
 
   <script src="script.js"></script>
